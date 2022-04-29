@@ -22,10 +22,37 @@ Tabula предлставляет собой кросплатформенное 
 
 <img src="appaсhitecture.jpg"/>
 
-- Децентрализованный журнал эзотерической практики.
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+#### 2.1 Таблица сервисов приложения
+
+Название сервиса  | Порт
+------------- | -------------
+ui-admin-dashboard  | 9001
+ui-main  | 9000 
+api-gateway  | 8080
+dictionary-service  | 8082
+journal-service  | 8082
+keycloack | 8081
+pgadmin | 5050
+database | 5432
+discovery-service | ????
+config-server | ????
+prometheus | ????
+graphana | ????
+kibana | ????
+
+#### 2.1 Список ссылок для администрирования приложения
+
+- GitHub
+- PgAdmin
+- Keycloak
+- Eureka
+- Prometheus
+- Graphana
+- Kibana
+- Swagger UI
+- Jenkins
+- OpenShift
+
+### 3. Функционал приложения
+#### 3.1 Функционал доступный пользователю приложения
+##### 3.2 Журнал
